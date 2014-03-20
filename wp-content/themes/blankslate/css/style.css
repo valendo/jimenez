@@ -1,0 +1,289 @@
+/*css*/
+@import"../css/reset.css";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic-ext,greek-ext,latin-ext,cyrillic);
+body {color: #666666;	position: relative;	background: #f3f3f3;font-size: 16px;font-family: Roboto, sans-serif, Arial;font-style:normal;line-height:26px; font-weight:300;}
+* { -webkit-text-size-adjust: none; margin:0; padding:0}
+a { color: inherit; text-decoration: none;}
+a:hover { text-decoration: none;}
+a[href^="tel:"] {color: inherit;text-decoration:none;}
+.pagewrap {	width: 940px; margin:0 auto; position:relative; overflow:hidden; padding:50px 0}
+.red{ color:#F00}
+.row{ overflow:hidden; margin-bottom:5px; padding-bottom:5px}
+.titletop { font-size:40px; padding-bottom:20px; border-bottom:2px solid #ccc; margin-bottom:40px; text-transform:uppercase; font-weight:300}
+.boxmap .img { width:100%}
+.map { width:100%; height:400px;}
+	
+/*===    croll top =======*/
+#back-top {	position: fixed;bottom: 50%; right:0px;}
+#back-top a { background:url(../img/up.jpg) no-repeat; width:35px; height:59px; text-indent:-999px; display:block; overflow: hidden}
+/*==== header =========*/
+header {}
+header .headwrap {width: 940px; margin:0 auto; padding:10px 0; position:relative; overflow:hidden}
+header .logo { width:33%; float: left;}
+header .logo img { width:100%}
+header .call { font-size:19px; color:#333; float:right; padding-top:65px; font-weight:500}
+header .call .numb{ color:#3399cc}
+/*===== quote banner ===*/
+.quotebox { margin:-1px auto 0 auto; height:1px; position: absolute; width:100%; top:0px;}
+.quotetop { width:940px; position:relative; margin:0 auto;}
+.quotetop .boxcont {width:600px; z-index:99; position: absolute; top:180px; color:#fff}
+.quotetop .text1 { font-size:85px; font-weight:bold; margin-bottom:30px;}
+.quotetop .text2 { font-size:45px; font-weight:400; line-height:45px; margin-bottom:20px;}
+.quotetop a { font-size:35px; font-weight:bold; padding:17px 30px; text-transform:uppercase;}
+/*=== nav ====*/
+.navi { background-color:#cc3333; padding:7px 0}
+
+/*=== banner ====*/
+.banner { position:relative;overflow:hidden;}
+.banner img {min-height: 100%; min-width: 1440px; width: 100%;height: auto;}
+
+/*=== get a quote ====*/
+.boxquote { float: left; overflow:hidden; width:470px; margin-bottom:1px}
+.boxquote .boximg { width:234px; height:234px; float:left; margin-right:1px; overflow:hidden}
+.boxquote .boximg  img {width: 234px; -webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;-ms-transition: all 1s ease;transition: all 1s ease;} 
+.boxquote .boximg img:hover { width: 260px;}
+.boxquote .boxtext { width:204px; height:204px; float:left; padding:15px; color:#fff;}
+.boxquote .boxtext .title { font-size:23px;}
+.boxquote .boxtext .btquote { padding-top:15px}
+.boxquote .boxtext .btquote a {-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px; text-align:center; font-size:20px; font-weight:bold; padding:5px 15px; color:#666666;1px 0px 1px #fff; background-color:#FFF;}
+.boxquote .car .btquote a:hover {color:#cc2127;}
+.boxquote .home .btquote a:hover {color:#00a7ed;}
+.boxquote .life .btquote a:hover {color:#89b725;}
+.boxquote .commercial .btquote { padding-top:30px}
+.boxquote .commercial .btquote a:hover {color:#f58020;}
+.boxquote .boxtext p { margin-bottom:10px; font-size:14px; line-height:16px}
+.boxquote .car { background-color:#cc2127; text-align:center;}
+.boxquote .home { background-color:#00a7ed; text-align:center;}
+.boxquote .life { background-color:#89b725; text-align:center;}
+.boxquote .commercial { background-color:#f58020; text-align:center;}
+
+/*=== information ====*/
+
+.boxinfo { background-color:#eaeaea}
+.boxinfo .acticle { border-bottom:1px solid #CCC; height:15px; text-align:center; margin-bottom:50px}
+.boxinfo .acticle span { padding:0 30px; background-color:#eaeaea; font-size:40px; font-style:normal; font-weight:300 }
+.boxinfo p { margin-bottom:30px; text-align:center}
+/*=====   footer ========*/
+.footer { background:#d03737; padding:30px 0}
+.footer .subfooter { width: 700px; margin:0 auto; color:#fff; text-align:center; font-size:14px}
+.footer .subfooter span { padding: 0 10px}
+.footer .subfooter a { color:#fff}
+.footer .subfooter a:hover,.footer .subfooter a.active {color:#f0ff00}
+.footer .subfooter .social { margin-top:10px}
+.footer .subfooter .social a { text-align:center; margin:0 5px}
+.footer p { margin-bottom:5px}
+.subscribe {display:inline-block;}
+.subscribe .input { display:inline-block; width:185px; height:25px; line-height:25px; -moz-border-radius:3px;-webkit-border-radius:3px;	border-radius:3px; background-color:#e6e6e6; border:1px solid #fff; margin:0 5px;}
+.subscribe .btsubmit{ text-transform:uppercase; border:1px solid #fff; text-align:center; padding:0 10px; height:27px; line-height:25px; color:#fff;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e01818), color-stop(1, #fb4141));
+	background:-moz-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:-webkit-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:-o-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:-ms-linear-gradient(top, #e01818 5%, #fb4141 100%);
+	background:linear-gradient(to bottom, #e01818 5%, #fb4141 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#fb4141',GradientType=0);
+	background-color:#e01818; -moz-border-radius:3px;-webkit-border-radius:3px;	border-radius:3px; margin-left:5px; cursor:pointer}
+	.subscribe .btsubmit:hover {background-color:#d70303; color:#f0ff00}
+	
+/*=====   partners ========*/
+.subcriptpart{ margin:30px 0}
+.listpartners { list-style:none; overflow:hidden; margin-left:-14px; text-align: center;}
+.listpartners li { margin-left:13px; margin-bottom:15px; display:inline-block; width:300px; overflow:hidden;height:130px; position:relative} 
+.listpartners li img { width:300px; height:130px; -webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;-ms-transition: all 1s ease;transition: all 1s ease;display: block;position: relative;}
+.listpartners li img:hover { width:310px; height:140px;}
+
+/*=====  get a quote page ========*/
+.contquote{ width: 500px;}
+.required { color:#33485f; font-weight:bold; margin-bottom:30px}
+.required .row{ overflow:hidden; line-height:25px; margin-bottom:10px}
+.form label { width:30%; float:left; margin-right:20px; text-align:right}
+.form label span { color:#F00}
+.form input[type="text"] { width:300px; float:right;line-height:25px; height:25px}
+.form  textarea { width:300px; float:right; border:1px solid #ccc; line-height:25px;}
+.form .bt{ width:320px; float:right; border:none}
+
+/*===== contact us ========*/
+.infocontact { overflow:hidden}
+.contform { width: 500px; float:left}
+.contperson { float:right; width:350px; padding-top:160px}
+.contperson > div { margin-bottom:50px}
+.contperson p { text-transform:uppercase; color:#C00}
+
+/*==================Page insurrance =====================*/
+#insur { padding-top:50px; position:relative; width:940px; margin:0 auto}
+.slicknav_menu {display:none;}
+
+#insur .sidebar { width:260px; border-right:1px #ccc dashed;  float:left; padding-right:20px}
+#insur .sidebar .titleblock { font-size:20px; margin-bottom:10px;}
+#insur .sidebar .listblock { margin-bottom:50px;}
+#insur .sidebar  a { color:#0066cc; display:block}
+#insur .sidebar  a:hover {color: #333;}
+#insur .sidebar .listblock li a{ padding-right:20px; padding-left:10px;}
+#insur .sidebar .listblock ul li a{ padding-left:20px !important;}
+#insur .sidebar .listblock li a:hover{background-color:#eaeaea;}
+#insur .sidebar .active.nomal {background:url(../img/ad.png) no-repeat center right !important; }
+#insur .sidebar .nomal {background:url(../img/down1.png) no-repeat center right; }      
+#insur .sidebar ul {list-style: none;}		
+#insur .continsur { width:600px; float:right; text-align:justify}
+#insur .continsur h1.act { font-size:40px; color:#122d62; margin-bottom:30px;}
+#insur .continsur .block ul { padding-left:40px}
+
+
+/*==================Page about =====================*/
+#about_us{ overflow:hidden}
+#about_us img { float:right; margin-left:30px; height: auto; width:auto}
+#about_us .cont { float:left; width:60%; border:1px dashed #ccc; padding:20px; margin-top:30px;}
+#about_us .cont h1 { font-size:24px; margin-bottom:10px;}
+#about_us .boxcont { color:#666666; text-align:center; margin-top:30px; text-align:center}
+#about_us .text1 { font-size:50px; font-weight:bold; margin-bottom:30px;}
+#about_us .text2 { font-size:25px; font-weight:400; line-height:30px; margin-bottom:10px;}
+#about_us a { font-size:35px; font-weight:bold; padding:10px 20px; text-transform:uppercase;}
+
+/*===  page nation =======*/
+.pagination {border-top:1px solid #e0e0e0;	padding-top: 22px;font-size: 12px;	line-height: 30px; margin-top:20px;}
+.pagination ul {display: inline-block; text-align:center; width:100%}
+.paging li, .paging a {	display: inline; text-align:center}
+.paging a, .paging span, .paging a:visited {padding: 6px 12px;margin-right: 5px;line-height: 30px}
+.paging a {	background: #E4E4E4;border:1px solid #d4d4d4;color: #616161}
+.paging span, .paging a:hover {	background: #CC3333;border:1px solid #CC3333;color: #FFF}
+
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+@media screen and (max-width: 1040px)
+{
+/*===== quote banner ===*/
+.quotebox { margin:-1px auto 0 auto; height:1px; position: absolute; width:100%; top:0px}
+.quotetop { width:940px; position:relative; margin:0 auto;}
+.quotetop .boxcont {width:450px; z-index:99; position: absolute; top:100px; color:#fff}
+.quotetop .text1 { font-size:65px; font-weight:bold; margin-bottom:20px;}
+.quotetop .text2 { font-size:40px; font-weight:400; line-height:35px; margin-bottom:15px;}
+.quotetop a { font-size:30px; font-weight:bold; padding:10px 25px; text-transform:uppercase;}
+/*=== banner ====*/
+.banner { position:relative; height:auto; overflow:hidden;}
+.banner img {min-height:150px; min-width: inherit; width: 100%;}
+}
+/* for 980px or less */
+@media screen and (max-width: 940px) {
+.pagewrap {	width: 94%; position:relative; overflow:hidden; padding:30px 0}
+.boxquote {overflow:hidden; width:470px; margin: 0 auto; float:none;}
+}
+
+/* for 700px or less */
+@media only screen and (min-width: 600px) and (max-width: 930px) {
+	
+header .headwrap {width: 94% !important;}
+header .call { font-size:19px; color:#333; float:right; padding-top:20px;}
+.pagewrap {	width: 94%; position:relative; overflow:hidden; padding:30px 0}
+.footer .subfooter { width: 100% !important; margin:0 auto; font-size:14px}
+.boxquote {overflow:hidden; width:470px; margin: 0 auto; float:none;}
+.banner img,.banner.size img { width:100%; height:auto; min-height:inherit}
+.chatwidth { display:none}
+.infocontact .contform { width:70%;}
+.contperson { float:none; width:100%; padding-top:0px}
+.contperson > div { margin-bottom:20px}
+.contperson p { text-transform:uppercase; color:#C00}
+.map { width:100%; height:300px;}
+/*=== qoute =====*/
+.boxquote { float: none; overflow:hidden; width:600px; margin:0 auto; margin-bottom:1px;}
+.boxquote .boximg { width:299px; height:234px; float:left; margin-right:1px; overflow:hidden}
+.boxquote .boximg  img {width: 299px; -webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;-ms-transition: all 1s ease;transition: all 1s ease;} 
+.boxquote .boximg img:hover { width: 310px;}
+.boxquote .boxtext { width:270px; height:204px; float:left; padding:15px; color:#fff;}
+/*=== banner ====*/
+.banner { position:relative; height:auto; overflow:hidden;}
+.banner img {min-height:150px; min-width: inherit; width: 100%;}
+/*==== about =====*/
+#about_us img { display:none}
+#about_us .cont { float:none; width:90%; padding:20px; padding:10px; margin:0 auto; text-align:justify}
+#about_us .cont  .boxcont { color:#666666; text-align:center; margin-top:30px;}
+#about_us .cont .text1 { font-size:50px; font-weight:bold; margin-bottom:30px;}
+#about_us .cont .text2 { font-size:25px; font-weight:400; line-height:30px; margin-bottom:10px;}
+#about_us .cont a { font-size:35px; font-weight:bold; padding:10px 20px; text-transform:uppercase;}
+/*===== quote banner ===*/
+.quotebox {position: relative; width:100%; margin:20px 0; height: auto;}
+.quotetop { width:100%; position:relative; margin:0 auto; padding:20px 0}
+.quotetop .boxcont {width:100%; z-index:99; position: relative;  color:#666666; text-align:center; top:auto}
+.quotetop .text1 { font-size:50px; font-weight:bold; margin-bottom:30px;}
+.quotetop .text2 { font-size:25px; font-weight:400; line-height:45px; margin-bottom:20px;}
+.quotetop a { font-size:30px; font-weight:bold; padding:17px 30px; text-transform:uppercase;}
+
+/*#insur .sidebar { width:95% !important; float:none; border-right: none;  }*/
+#insur { padding-top:50px; position:relative; width:95%; margin:0 auto}
+#insur .sidebar { width:240px;float:left;}
+#insur .continsur { width:60%; float:right; text-align:justify}
+#insur .continsur h1.act { font-size:40px; color:#122d62; margin-bottom:30px;}
+#insur .continsur .block ul { padding-left:40px}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 599px) {
+.map { width:100%; height:200px;}	
+body {font-size: 14px;font-family: Roboto, sans-serif, Arial;font-style:normal;line-height:26px}
+header .headwrap {width: 94% !important;}
+header .call { font-size:18px; color:#333; float:none; padding-top:5px}
+header .logo {float: none; width:100% !important}
+header .logo img { width:40%}
+
+/*=== banner ====*/
+.banner { position:relative; height:auto; overflow:hidden;}
+.banner img {height:150px; min-width: inherit; width: 100%;}
+
+.pagewrap {	width: 94% !important; position:relative; overflow:hidden; padding:20px 0}
+.boxquote {overflow:hidden; width:100%; margin: 0 auto;float:none;}
+.boxquote .boximg { width:100%; max-height:200px; float:none; overflow:hidden; margin: 0 auto; margin-bottom:1px}
+.boxquote .boximg  img {width: 100%; -webkit-transition: all 1s ease;-moz-transition: all 1s ease;-o-transition: all 1s ease;-ms-transition: all 1s ease;transition: all 1s ease;} 
+.boxquote .boximg img:hover { width: 102%;}
+.boxquote .boxtext {width: auto; height: auto; float:none; margin-bottom:1px; overflow:hidden; margin: 0 auto; padding:15px; color:#fff; margin-bottom:1px}
+.boxinfo .acticle { border-bottom:1px solid #CCC; height:15px; text-align:center; margin-bottom:50px}
+.boxinfo .acticle span { padding:0 20px; background-color:#eaeaea; font-size:25px; font-style:normal; font-weight:300 }
+.boxinfo p { margin-bottom:15px; text-align:center}
+.footer .subfooter { width: 100%; margin:0 auto; color:#fff; text-align:center; font-size:14px}
+.footer .subfooter .hide { display:none}
+/*===== quote banner ===*/
+.quotebox {position: relative; width:100%; margin:10px 0; height: auto;}
+.quotetop { width:96%; position:relative; margin:0 auto; padding:10px 0}
+.quotetop .boxcont {width:96%; z-index:99; position: relative;  color:#666666; text-align:center; top:auto}
+.quotetop .text1 { font-size:30px; font-weight:bold; margin-bottom:10px;}
+.quotetop .text2 { font-size:15px; font-weight:400; line-height:20px; margin-bottom:10px;}
+.quotetop a { font-size:20px; font-weight:bold; padding:10px 20px; text-transform:uppercase;}
+
+/*==== about =====*/
+#about_us img { display:none}
+#about_us .cont { float:none; width:90%; padding:10px; margin:0 auto; display:inline-block; text-align:justify}
+#about_us .cont  .boxcont { color:#666666; text-align:center; margin-top:20px;}
+#about_us .cont .text1 { font-size:30px; font-weight:bold; margin-bottom:20px;}
+#about_us .cont .text2 { font-size:20px; font-weight:400; line-height:20px; margin-bottom:10px;}
+#about_us .cont a { font-size:15px; font-weight:bold; padding:10px 20px; text-transform:uppercase;}
+
+.titletop { font-size:20px; padding-bottom:10px; border-bottom:2px solid #ccc; margin-bottom:20px; text-transform:uppercase; font-weight:300}
+.contform { width: 100%; float: none; text-align:left}
+.contperson { float:none; width:100%; padding-top:0px}
+.contperson > div { margin-bottom:20px}
+.contperson p { text-transform:uppercase; color:#C00}
+.contquote{ width: 100%;}
+.required .row{line-height:25px; margin-bottom:10px}
+.form label { width:100%; float:none; margin-right:20px; text-align:left; display:block}
+.form label span { color:#F00}
+.form input[type="text"] { width:90% !important; float:none; border:1px solid #ccc; line-height:25px; height:25px}
+.form  textarea { width:90%; float:none; border:1px solid #ccc; line-height:25px;}
+.form .bt{ width:60%; float: none;}
+
+.subscribe .input { display:inline-block; width:80%; margin-bottom:7px}
+.subscribe .btsubmit { display:inline-block; width:30%; margin-bottom:7px}
+#insur { padding-top:20px}
+#insur .sidebar {display:none;	}	
+#insur .slicknav_menu {display:block;}
+#insur .sidebar .active.nomal {background:url(../img/ad.png) no-repeat center right !important; }
+#insur .sidebar .nomal {background:url(../img/down1.png) no-repeat center right; }
+#insur .sidebar { width:95% !important; float:none; border-right: none;}
+#insur .continsur { width:95% !important; float:none; text-align:justify; margin:0 auto;}
+#insur .continsur h1.act { font-size:20px; color:#122d62; margin-bottom:20px; text-align:left; line-height:25px}
+#insur .continsur .block ul { padding-left:0px}
+
+#insur .continsur { width:96%; float:none; text-align:justify}
+#insur .sidebar { width:96%; float:none; border:none; overflow:scroll; position: relative !important}
+#back-top,.btlivechat  { display:none !important}
+}
