@@ -1,7 +1,29 @@
 <!-- footer -->
 <div class="footer">
   <div class="subfooter">
-    <p> <a href="index.html" class="active" >Home </a> <span>| </span> <a href="about.html" > About </a> <span>| </span> <a href="getaquote.html"> Get a Quote </a> <span>| </span> <a href="insuranceproduct.html" >Insurance Product </a><span class="hide">| </span> <a href="partners.html" >Partners </a> <span>| </span> <a href="blog.html" >Blog </a> <span>| </span> <a href="contact.html" >Contact Us </a> </p>
+    <p> 
+      <?php
+        $menu_name = 'main-menu';
+
+        if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ $menu_name ] ) ) {
+          $menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
+          $menu_items = wp_get_nav_menu_items($menu->term_id);
+          $i = 0;
+          $len = count($menu_items);
+          foreach ( (array) $menu_items as $key => $menu_item ) {
+              $title = $menu_item->title;
+              $url = $menu_item->url;
+              $menu_list .= '<a href="' . $url . '">' . $title . '</a>';
+              if ($i != $len - 1) {
+                $menu_list.= '<span>| </span>';
+              }
+              $i++;
+          }
+        } 
+        echo $menu_list;
+      ?>
+      <!--<a href="index.html" class="active" >Home </a> <span>| </span> <a href="about.html" > About </a> <span>| </span> <a href="getaquote.html"> Get a Quote </a> <span>| </span> <a href="insuranceproduct.html" >Insurance Product </a><span class="hide">| </span> <a href="partners.html" >Partners </a> <span>| </span> <a href="blog.html" >Blog </a> <span>| </span> <a href="contact.html" >Contact Us </a> -->
+    </p>
     <p>Email Marketing you can trust  |  Subscribe to our newsletter</p>
     <p class="subscribe">
       <input class="input" type="text" value="Name.." id="Username"  onfocus="if(this.value == 'Name..') this.value = '';" onblur="if(this.value == '') this.value = 'Name..';"  />
@@ -40,7 +62,7 @@
 <!-- sript ---> 
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script> 
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr.js"></script> 
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/responsivemobilemenu.js"></script> 
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/responsivemobilemenu.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>
 
 </body>

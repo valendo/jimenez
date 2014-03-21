@@ -29,7 +29,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 /* GRAPHITE STYLE */
 
 .rmm.graphite .rmm-main-list li a {	display:inline-block;	padding:8px 30px 8px 30px;}
-.rmm.graphite .rmm-main-list li a:hover,.rmm.graphite .rmm-main-list li a.active { background:url(../img/line_nav.png) right center no-repeat; color:#f0ff00}
+.rmm.graphite .rmm-main-list li a:hover,.rmm.graphite .rmm-main-list li.current-menu-item a { background:url(../img/line_nav.png) right center no-repeat; color:#f0ff00}
 
 .rmm.graphite .rmm-toggled {width:95%;background-color:#fff; min-height:36px;	border-radius:6px;}
 .rmm.graphite .rmm-toggled-controls {display:block;height:36px;	color:333;text-align:left;position:relative;border-radius:6px;}

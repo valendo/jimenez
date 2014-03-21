@@ -19,13 +19,16 @@
 <body>
 <!-- header-->
 <header>
-  <div class="headwrap"> <a href="home.html" class="logo"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png"></a>
+  <div class="headwrap"> <a href="/wp" class="logo"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png"></a>
     <p class="call">QUESTIONS? CALL <span class="numb"> 866-835-9301</span></p>
   </div>
 </header>
 <!-- navi-->
 <div class="navi">
+<!--
   <div class="rmm">
+
+  
     <ul>
       <li><a href='index.html' class="active">Home</a></li>
       <li><a href='about.html'>About </a></li>
@@ -35,5 +38,11 @@
       <li><a href='#sitemap'>blog</a></li>
       <li><a href='contact.html'>contact us</a></li>
     </ul>
+    
+
   </div>
+  
+  -->
+  <?php wp_nav_menu( array( 'theme_location' => 'main-menu','container_class' => 'rmm', 'menu_class' => '' ) ); ?>
+
 </div>
