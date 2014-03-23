@@ -58,6 +58,7 @@ $(document).ready(function(){
 });
 
 // maps contact me
+/*
  $('#map').gMap({
         address: "Jason Jimenez Insurance Agency Inc,8323 Southwest Frwy #390,Houston, TX 77074 ",
         zoom: 14,
@@ -80,3 +81,4 @@ $(document).ready(function(){
 		]
     });
 	
+*/

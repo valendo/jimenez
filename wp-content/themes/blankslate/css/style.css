@@ -99,6 +99,7 @@ background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e01
 .form label { width:30%; float:left; margin-right:20px; text-align:right}
 .form label span { color:#F00}
 .form input[type="text"] { width:300px; float:right;line-height:25px; height:25px}
+.form input[type="email"] { width:300px; float:right;line-height:25px; height:25px}
 .form  textarea { width:300px; float:right; border:1px solid #ccc; line-height:25px;}
 .form .bt{ width:320px; float:right; border:none}
 
@@ -262,7 +263,7 @@ header .logo img { width:40%}
 .contform { width: 100%; float: none; text-align:left}
 .contperson { float:none; width:100%; padding-top:0px}
 .contperson > div { margin-bottom:20px}
-.contperson p { text-transform:uppercase; color:#C00}
+/*.contperson p { text-transform:uppercase; color:#C00}*/
 .contquote{ width: 100%;}
 .required .row{line-height:25px; margin-bottom:10px}
 .form label { width:100%; float:none; margin-right:20px; text-align:left; display:block}
@@ -286,4 +287,9 @@ header .logo img { width:40%}
 #insur .continsur { width:96%; float:none; text-align:justify}
 #insur .sidebar { width:96%; float:none; border:none; overflow:scroll; position: relative !important}
 #back-top,.btlivechat  { display:none !important}
+}
+
+span.wpcf7-not-valid-tip{
+	display: inline !important;
+	float:right;
 }

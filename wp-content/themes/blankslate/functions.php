@@ -64,3 +64,10 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+//change default contact form 7 class
+add_filter( 'wpcf7_form_class_attr', 'your_custom_form_class_attr' );
+function your_custom_form_class_attr( $class ) {
+	$class = 'form';
+	return $class;
+}

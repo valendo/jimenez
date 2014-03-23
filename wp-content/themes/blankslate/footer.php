@@ -40,7 +40,7 @@
   <div class="block-heading"> <a class="btn-close" href="javascript:;">&nbsp;</a> <strong>Live Chat</strong> </div>
   <div class="block-content">
     <div class="box-monster">
-      <figure class="img-monster"><img alt="" src="img/support-icon.png"></figure>
+      <figure class="img-monster"><img alt="" src="<?php bloginfo('template_directory'); ?>/img/support-icon.png"></figure>
       <span>Hello! Can I help you choose a insurrane product?</span> </div>
     <form class="live-chat-form" id="live-chat-form" name="live_chat" method="POST" action="">
       <div class="erro" style="display:none"></div>
@@ -60,10 +60,11 @@
 </div>
 <p id="back-top"> <a href="#top"><span></span>Back to Top</a> </p>
 <!-- sript ---> 
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script> 
+
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr.js"></script> 
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/responsivemobilemenu.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery-hover-effect.js"></script> 
 
 </body>
 
