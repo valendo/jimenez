@@ -25,16 +25,22 @@
       <!--<a href="index.html" class="active" >Home </a> <span>| </span> <a href="about.html" > About </a> <span>| </span> <a href="getaquote.html"> Get a Quote </a> <span>| </span> <a href="insuranceproduct.html" >Insurance Product </a><span class="hide">| </span> <a href="partners.html" >Partners </a> <span>| </span> <a href="blog.html" >Blog </a> <span>| </span> <a href="contact.html" >Contact Us </a> -->
     </p>
     <p>Email Marketing you can trust  |  Subscribe to our newsletter</p>
+    <!--
     <p class="subscribe">
       <input class="input" type="text" value="Name.." id="Username"  onfocus="if(this.value == 'Name..') this.value = '';" onblur="if(this.value == '') this.value = 'Name..';"  />
       <input class="input" type="text" value="Inter your E-mail.." id="Username"  onfocus="if(this.value == 'Inter your E-mail..') this.value = '';" onblur="if(this.value == '') this.value = 'Inter your E-mail..';"  />
       <input name="" type="button" value="Submit" class="btsubmit">
     </p>
+    -->
+    <?php echo smlsubform();?>
+      <div style="clear:both;"></div>
+
     <p>©2014 Jason Jimenez Insurance Agency INC. All rights reserved. </p>
     <p class="social"> <a id="facebook" href="https://www.facebook.com/jasonjimenezinsuranceagency" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/f.png"></a> <a id="sweeter" href="https://twitter.com/JasonJimenezIns" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/t.png"></a> <a id="in" href="http://www.linkedin.com/pub/jason-jimenez/12/106/202" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/i.png"></a></p>
   </div>
 </div>
 <!-- box chat with me --> 
+<!--
 <a class="btlivechat" href="#">Live chat with me</a>
 <div class="live-chat">
   <div class="block-heading"> <a class="btn-close" href="javascript:;">&nbsp;</a> <strong>Live Chat</strong> </div>
@@ -58,6 +64,7 @@
     <div class="call">if you have questions? you can call for me <strong>866-835-9301</strong></div>
   </div>
 </div>
+-->
 <p id="back-top"> <a href="#top"><span></span>Back to Top</a> </p>
 <!-- sript ---> 
 
