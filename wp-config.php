@@ -80,6 +80,7 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */

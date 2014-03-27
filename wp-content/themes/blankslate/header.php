@@ -22,7 +22,7 @@
 <body>
 <!-- header-->
 <header>
-  <div class="headwrap"> <a href="/wp" class="logo"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png"></a>
+  <div class="headwrap"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png"></a>
     <p class="call">QUESTIONS? CALL <span class="numb"> 866-835-9301</span></p>
   </div>
 </header>

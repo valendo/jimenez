@@ -293,3 +293,11 @@ span.wpcf7-not-valid-tip{
 	display: inline !important;
 	float:right;
 }
+ul.show
+{
+	display: block !important;
+}
+a.selected{
+	background-color: #eaeaea;
+	color:#CC3333 !important;
+}
