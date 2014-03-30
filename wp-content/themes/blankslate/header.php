@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script> 
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.slicknav.js"></script> 
-
+<?php wp_head(); ?> 
 </head>
 
 <body>
