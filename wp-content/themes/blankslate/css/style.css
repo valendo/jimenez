@@ -126,7 +126,7 @@ background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e01
 #insur .sidebar .nomal {background:url(../img/down1.png) no-repeat center right; }      
 #insur .sidebar ul {list-style: none;}		
 #insur .continsur { width:600px; float:right;}
-#insur .continsur h1.act { font-size:40px; line-height: 40px; text-align: left; color:#122d62;}
+#insur .continsur h1.act { font-size:40px; line-height: 40px; text-align: left; color:#122d62;margin-bottom:30px;}
 #insur .continsur ul { padding-left:40px; list-style-type: square;}
 #insur .continsur ol {padding-left: 40px;}
 
